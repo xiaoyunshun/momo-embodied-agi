@@ -17,6 +17,7 @@ __license__ = "Apache 2.0"
 
 # 核心能力快速导入
 from . import cli
+from .runner import MomoRunner
 
 # 版本信息
 VERSION = __version__
