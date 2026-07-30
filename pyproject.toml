@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "momo-embodied-agi"
+version = "1.0.0.dev1"
+description = "墨墨——开源具身智能框架。五层大脑+七感官+八分身+机器人身体方案+发现引擎"
+readme = "README.md"
+license = {text = "Apache 2.0"}
+requires-python = ">=3.10"
+keywords = ["ai-agent", "embodied-ai", "multi-agent", "robotics", "artificial-intelligence"]
+
+[project.urls]
+Homepage = "https://github.com/xiaoyunshun/momo-embodied-agi"
+Repository = "https://github.com/xiaoyunshun/momo-embodied-agi"
+
+[project.scripts]
+momo = "momo.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["momo", "momo.*"]
