@@ -73,7 +73,7 @@ jobs:
       - name: 安装并运行示例
         run: |
           pip install .
-          for ex in examples/01_quickstart.py examples/02_custom_avatar.py examples/03_custom_sense.py; do
+          for ex in examples/*.py; do
             echo "=== 运行 $ex ==="
             python3 "$ex" || exit 1
             echo ""

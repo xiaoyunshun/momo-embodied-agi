@@ -7,6 +7,8 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+[中文文档](README.md) · [English](README.en.md)
+
 ---
 
 ## 为什么有墨墨？
